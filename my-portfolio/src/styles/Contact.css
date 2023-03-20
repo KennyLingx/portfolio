@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Source+Sans+Pro:ital@1&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    font-family: "Source Sans Pro";
+    background-color: #eee;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+form{
+    display: block;
+    background-color: rgb(140, 164, 201);
+    box-shadow: 1px 1px 3px 2px rgb(252, 252, 252);
+    margin: 50px auto;
+    max-width: 600px;
+    max-height: 700px;
+    padding:20px 40px;
+
+}
+
+form input, textarea{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    margin:15px auto;
+    padding: 11px;
+    font-family: "Source Sans Pro";
+    border:1px solid #3c85f3;
+}
+
+form span{
+    color:blue;
+}
+
