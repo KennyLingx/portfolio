@@ -9,7 +9,7 @@ function Home() {
       <div className='about'>
         <h2> Hi, My name is Kenny</h2>
         <div className='prompt'>
-          <p> A software developer with a passion for learning and creating</p>
+          <p> A Full-Stack Web developer with a passion for learning and creating</p>
           <a href="https://github.com/KennyLingx"><GitHubIcon /></a>
           <a href="xling.w2322@gmail.com"><EmailIcon /></a>
         </div>
@@ -29,7 +29,7 @@ function Home() {
           </li>
           <li className='item'>
             <h2> Additional</h2>
-            <span>Microsoft Word, Excel, photoshop</span>
+            <span>Git, Microsoft Word, Excel, photoshop</span>
           </li>
         </ol>
       </div>
