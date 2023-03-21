@@ -1,7 +1,9 @@
 import React from 'react'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
+import DownloadRoundedIcon from '@mui/icons-material/DownloadRounded';
 import "../styles/Home.css";
+import pdf from "../assets/resume.pdf"
 
 function Home() {
   return (
@@ -12,6 +14,9 @@ function Home() {
           <p> A Full-Stack Web developer with a passion for learning and creating</p>
           <a href="https://github.com/KennyLingx"><GitHubIcon /></a>
           <a href="xling.w2322@gmail.com"><EmailIcon /></a>
+          <h3>Download my resume here :<a href={pdf}><DownloadRoundedIcon /></a></h3>
+          
+         
         </div>
       </div>
       <div className='skills'>

@@ -4,7 +4,7 @@ body{
     margin:0;
     padding:0;
     font-family: "Source Sans Pro";
-    background-color: #eee;
+    background-color: #f8f8f8;
 }
 
 *{
@@ -13,7 +13,7 @@ body{
 
 form{
     display: block;
-    background-color: rgb(140, 164, 201);
+    background-color: rgb(149, 201, 231);
     box-shadow: 1px 1px 3px 2px rgb(252, 252, 252);
     margin: 50px auto;
     max-width: 600px;

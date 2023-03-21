@@ -4,6 +4,7 @@ import { Button } from '@mui/material';
 import SendIcon from '@mui/icons-material/Send';
 import { useState } from "react";
 
+
 function Contact() {
     const [data, setData] = useState({name:"", email:"",  phone:"", message:""});
     const handleChange = (e)=> {
@@ -18,14 +19,18 @@ function Contact() {
       console.log(1)
     }
   return (
-    <form>
+    <div>
+      
+      <form>
         <h1>Contact<span> Here</span></h1>
         <input type="text" name="name" id="" onChange={handleChange}placeholder="Enter Name"/>
         <input type="email" name="email" id="" onChange={handleChange}placeholder="example@gmail.com"/>
         <input type="Phone" name="phone" id="" onChange={handleChange}placeholder="+1"/>
         <textarea name="message" id=""  cols="30" rows="10" onChange={handleChange} placeholder="leave your message here..."/>
         <Button variant="contained" endIcon={<SendIcon />} onChange={handleSend}>Send</Button>
-    </form>
+      </form>
+      
+    </div>
   )
 }
 
